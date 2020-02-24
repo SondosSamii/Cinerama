@@ -1,0 +1,13 @@
+nav {
+  background-color: #111821 !important;
+}
+
+p, a {
+  color: #afafb2 !important;
+}
+
+a {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=footer.component.css.map */

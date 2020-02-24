@@ -1,0 +1,14 @@
+@import "../colors";
+
+nav {
+    background-color: $backgroundColor;
+}
+
+p, a {
+    color: $secondaryLightColor;
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: underline;
+}

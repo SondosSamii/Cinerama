@@ -1,0 +1,21 @@
+@import "../colors";
+
+nav {
+    background-color: $backgroundColor;
+}
+
+a {
+    color: $primaryColor;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: $secondaryLightColor;
+}
+
+@media screen and (max-width: 990px) {
+    .socialIcons {
+        display: none;
+    }
+}
+
