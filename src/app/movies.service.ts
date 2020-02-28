@@ -26,4 +26,20 @@ export class MoviesService {
   getMovieDetails(id):Observable<any> {
     return this._HttpClient.get(`https://api.themoviedb.org/3/movie/${id}?api_key=def5b6d9eea61749d3aac420b0f7ddeb`);
   }
+
+  getTVDetails(id):Observable<any> {
+    return this._HttpClient.get(`https://api.themoviedb.org/3/tv/${id}?api_key=def5b6d9eea61749d3aac420b0f7ddeb&language=en-US`);
+  }
+
+  getNowPlayingMovies():Observable<any> {
+    return this._HttpClient.get("https://api.themoviedb.org/3/movie/now_playing?api_key=def5b6d9eea61749d3aac420b0f7ddeb&language=en-US&page=1");
+  }
+
+  getLatestMovie():Observable<any> {
+    return this._HttpClient.get("https://api.themoviedb.org/3/movie/latest?api_key=def5b6d9eea61749d3aac420b0f7ddeb&language=en-US");
+  }
+
+  getLatestTV():Observable<any> {
+    return this._HttpClient.get("https://api.themoviedb.org/3/tv/latest?api_key=def5b6d9eea61749d3aac420b0f7ddeb&language=en-US");
+  }
 }
