@@ -1,3 +1,17 @@
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
+
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=security_rating)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=alert_status)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=bugs)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=code_smells)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
+
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=ncloc)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
+
 # Cinerama
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
