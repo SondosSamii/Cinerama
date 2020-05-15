@@ -12,6 +12,7 @@
   "private": true,
   "dependencies": {
     "@angular-devkit/architect": "^0.803.26",
+    "@angular-devkit/build-angular": "^0.803.26",
     "@angular-devkit/core": "^8.3.26",
     "@angular/animations": "~8.2.14",
     "@angular/common": "~8.2.14",
@@ -25,6 +26,7 @@
     "@ngtools/webpack": "^8.3.26",
     "angular-cli-ghpages": "^0.6.2",
     "bootstrap": "^4.4.1",
+    "chokidar": "^3.4.0",
     "eventemitter3": "^4.0.4",
     "follow-redirects": "^1.11.0",
     "http-proxy": "^1.18.0",
@@ -35,11 +37,10 @@
     "requires-port": "^1.0.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "yargs-parser": "^15.0.1",
+    "yargs-parser": "^18.1.2",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.803.26",
     "@angular/cli": "^8.3.26",
     "@angular/compiler-cli": "^8.2.14",
     "@angular/language-service": "~8.2.14",
@@ -47,7 +48,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
-    "jasmine-core": "^3.4.0",
+    "jasmine-core": "^3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "^5.0.5",
     "karma-chrome-launcher": "~2.2.0",
