@@ -8,6 +8,7 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=bugs)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=code_smells)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=sqale_index)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
 
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=ncloc)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
