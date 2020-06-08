@@ -24,6 +24,7 @@
     "@angular/router": "~8.2.14",
     "@fortawesome/fontawesome-free": "^5.12.0",
     "@ngtools/webpack": "^8.3.26",
+    "acorn": "^6.4.1",
     "angular-cli-ghpages": "^0.6.2",
     "bootstrap": "^4.4.1",
     "chokidar": "^3.4.0",
