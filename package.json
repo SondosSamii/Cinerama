@@ -37,6 +37,7 @@
     "requires-port": "^1.0.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
+    "websocket-extensions": "^0.1.4",
     "yargs-parser": "^18.1.2",
     "zone.js": "~0.9.1"
   },
