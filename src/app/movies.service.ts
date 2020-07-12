@@ -7,53 +7,55 @@ import { Observable } from "rxjs";
 })
 export class MoviesService {
   constructor(public _HttpClient: HttpClient) {}
+  baseUrl = "https://api.themoviedb.org/3/";
   apiKey = "def5b6d9eea61749d3aac420b0f7ddeb";
+  lang = "&language=en-US";
 
   getTrendingAll(): Observable<any> {
     return this._HttpClient.get(
-      `https://api.themoviedb.org/3/trending/all/day?api_key=${this.apiKey}`
+      `${this.baseUrl}trending/all/day?api_key=${this.apiKey}`
     );
   }
 
   getTrendingMovies(): Observable<any> {
     return this._HttpClient.get(
-      `https://api.themoviedb.org/3/trending/movies/day?api_key=${this.apiKey}`
+      `${this.baseUrl}trending/movies/day?api_key=${this.apiKey}`
     );
   }
 
   getTrendingTV(): Observable<any> {
     return this._HttpClient.get(
-      `https://api.themoviedb.org/3/trending/tv/day?api_key=${this.apiKey}`
+      `${this.baseUrl}trending/tv/day?api_key=${this.apiKey}`
     );
   }
 
   getMovieDetails(id): Observable<any> {
     return this._HttpClient.get(
-      `https://api.themoviedb.org/3/movie/${id}?api_key=${this.apiKey}`
+      `${this.baseUrl}movie/${id}?api_key=${this.apiKey}`
     );
   }
 
   getTVDetails(id): Observable<any> {
     return this._HttpClient.get(
-      `https://api.themoviedb.org/3/tv/${id}?api_key=${this.apiKey}&language=en-US`
+      `${this.baseUrl}tv/${id}?api_key=${this.apiKey}${this.lang}`
     );
   }
 
   getNowPlayingMovies(): Observable<any> {
     return this._HttpClient.get(
-      `https://api.themoviedb.org/3/movie/now_playing?api_key=${this.apiKey}&language=en-US&page=1`
+      `${this.baseUrl}movie/now_playing?api_key=${this.apiKey}${this.lang}`
     );
   }
 
   getLatestMovie(): Observable<any> {
     return this._HttpClient.get(
-      `https://api.themoviedb.org/3/movie/latest?api_key=${this.apiKey}&language=en-US`
+      `${this.baseUrl}movie/latest?api_key=${this.apiKey}${this.lang}`
     );
   }
 
   getLatestTV(): Observable<any> {
     return this._HttpClient.get(
-      `https://api.themoviedb.org/3/tv/latest?api_key=${this.apiKey}&language=en-US`
+      `${this.baseUrl}tv/latest?api_key=${this.apiKey}${this.lang}`
     );
   }
 }
