@@ -28,7 +28,7 @@
     "angular-cli-ghpages": "^0.6.2",
     "bootstrap": "^4.4.1",
     "chokidar": "^3.4.0",
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "eventemitter3": "^4.0.4",
     "follow-redirects": "^1.11.0",
     "http-proxy": "^1.18.1",
