@@ -38,6 +38,7 @@
     "jw-angular-pagination": "^1.1.0",
     "lodash": "^4.17.21",
     "node-sass": "^4.14.1",
+    "normalize-url": "^4.5.1",
     "popper.js": "^1.16.0",
     "postcss": "^8.2.10",
     "requires-port": "^1.0.0",
