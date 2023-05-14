@@ -1,3 +1,7 @@
+# Cinerama
+
+Deployed Here: **https://sondossamii.github.io/Cinerama/**
+
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
 
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=security_rating)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
@@ -12,8 +16,6 @@
 
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=ncloc)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
-
-# Cinerama
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
