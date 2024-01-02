@@ -19,7 +19,7 @@ export class MoviesService {
 
   getTrendingMovies(): Observable<any> {
     return this._HttpClient.get(
-      `${this.baseUrl}trending/movies/day${this.apiKey}`
+      `${this.baseUrl}trending/movie/day${this.apiKey}`
     );
   }
 
