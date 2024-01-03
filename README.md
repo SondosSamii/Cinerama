@@ -17,7 +17,7 @@ Deployed Here: **https://sondossamii.github.io/Cinerama/**
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=ncloc)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=SondosSamii_Cinerama&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=SondosSamii_Cinerama)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29.
 
 ## Development server
 
