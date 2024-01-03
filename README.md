@@ -33,7 +33,9 @@ Run `ng build` to build the project.
 
 ## Deploy to gh-pages
 
-Run `ng build --prod` for a production build.
+Run `ng build --prod --base-href "https://sondossamii.github.io/Cinerama/"`
+
+Then run `npx angular-cli-ghpages --dir=dist/Cinerama` for a production build.
 
 ## Running unit tests
 
