@@ -12,14 +12,14 @@ import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes =
 [
-  {path:'', redirectTo:'Home', pathMatch:'full'},
-  {path:'Home', component:HomeComponent},
-  {path:'About', component:AboutComponent},
-  {path:'Movies', component:MoviesComponent},
-  {path:'TV', component:TvComponent},
-  {path:'People', component:PeopleComponent},
-  {path:'Contacts', component:ContactsComponent},
-  {path:'MovieDetails/:id', component:MovieDetailsComponent},
+  {path:'', redirectTo:'home', pathMatch:'full'},
+  {path:'home', component:HomeComponent},
+  {path:'about', component:AboutComponent},
+  {path:'movies', component:MoviesComponent},
+  {path:'tv', component:TvComponent},
+  {path:'people', component:PeopleComponent},
+  {path:'contacts', component:ContactsComponent},
+  {path:'movie-details/:id', component:MovieDetailsComponent},
   {path:'**', component:NotFoundComponent}
 ];
 
