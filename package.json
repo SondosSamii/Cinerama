@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "Cinerama",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -12,12 +12,12 @@
   "private": true,
   "dependencies": {
     "@angular-devkit/architect": "^0.803.29",
-    "@angular-devkit/build-angular": "^15.0.0",
+    "@angular-devkit/build-angular": "^0.803.29",
     "@angular-devkit/core": "^8.3.29",
     "@angular/animations": "~8.2.14",
     "@angular/common": "~8.2.14",
     "@angular/compiler": "~8.2.14",
-    "@angular/core": "~11.0.5",
+    "@angular/core": "~8.2.14",
     "@angular/forms": "~8.2.14",
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
@@ -34,11 +34,11 @@
     "follow-redirects": "^1.14.8",
     "glob-parent": "^5.1.2",
     "http-proxy": "^1.18.1",
-    "ini": "^1.3.6",
+    "ini": "^1.3.8",
     "jquery": "^3.5.1",
     "jw-angular-pagination": "^1.1.0",
     "lodash": "^4.17.21",
-    "node-sass": "^7.0.3",
+    "node-sass": "^4.0.0",
     "normalize-url": "^4.5.1",
     "popper.js": "^1.16.0",
     "postcss": "^8.4.31",
@@ -56,7 +56,7 @@
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular/cli": "^15.1.4",
+    "@angular/cli": "^8.3.29",
     "@angular/compiler-cli": "^8.2.14",
     "@angular/language-service": "~8.2.14",
     "@types/jasmine": "~3.3.8",
